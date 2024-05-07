@@ -1,0 +1,175 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    background-color: #005f73;
+    color:white;
+    padding: 15px 0px;
+}
+.header-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin-left: 20px;
+    color: rgb(18, 11, 115);
+}
+.header-content h1:hover{
+    color: black;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+color: black;
+}
+#hero{
+    background-color: #FCF8F5;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;
+
+}
+.hero-content{
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+.hero-button{
+    
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ee6c4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #d64b2a;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+#Services {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#Services h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+    font-size: 28px;
+    
+}
+.Services p{
+    font-size: 18px;
+}
+#Services ul {
+    text-align: center;
+    list-style-type: none;
+    margin-left: 10px;
+}
+#Services li {
+    margin-bottom: 10px;
+}
+
+/* Styling for About Section */
+#About {
+    background-color: #f0f0f0;
+    
+    padding: 15px;
+    width: 40%;
+    text-align: center;
+    margin-left: 350px;
+}
+#About h2 {
+    color: #28a745;
+    margin-bottom: 30px;
+}
+
+/* Styling for Contact Section */
+#Contact {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#Contact h2 {
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+
+#Contact p {
+    margin-bottom: 10px;
+}
+
+/* Hover Effects */
+#Services li:hover,
+#Contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* Responsive Design Adjustments */
+@media screen and (max-width: 768px) {
+    #Services, #About, #Contact {
+        text-align: center;
+    }
+
+    #Services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    #About{
+        margin: 0 auto;
+    }
+}
+@media   screen and (max-width:556px) { 
+    nav ul{
+
+        margin-left: 0;
+    
+    }
+    header{
+        background-color: #005736;
+        width: fit-content;
+    }
+    .header-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header-content h1{
+        color: #333;
+        margin-left: 10px;
+    }
+}
+
+
+
+
